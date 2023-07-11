@@ -17,6 +17,8 @@
           "iframe[allow]"
         ]
       }
-    ]
+    ],
+    "meta-viewport": "off",
+    "disown-opener": "off"
   }
 }

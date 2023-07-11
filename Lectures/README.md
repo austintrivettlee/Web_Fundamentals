@@ -9,3 +9,8 @@ HTTP : Hyper Text Transfer Protocol
 
 HTML : Hyper Text Markup Language
 : 
+
+## Day Two Notes
+
+CSS
+: Cascading Style Sheets
