@@ -1,0 +1,31 @@
+body {
+    background-color: grey;
+}
+/* div {
+    border: black 1px solid;
+} */
+/* #day-1 {
+    border: black 1px solid;
+}
+#day-2 {
+    border: red 1px dashed;
+} */
+.day-style {
+    border: darkblue 1px solid;
+}
+link {
+    color: red;
+}
+a {
+    color: red;
+}
+#sts {
+    color: red;
+}
+.req.belt {
+    color: purple;
+}
+iframe {
+    width: 400px; 
+    height: 200px;
+}

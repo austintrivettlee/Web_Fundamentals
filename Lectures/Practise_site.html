@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title> to Web Fundamentals!</title>
-</head>
+    <link rel="stylesheet" href="style.css">
+    </head>
 
 <body>
-    <div id="day-1">
+    <div id="day-1" class="day-style">
         <h1>Web Fundamentals!</h1> <!-- Use h tags for importance and CSS for changing the size of text-->
         <h2>July 2023</h2>
 
@@ -18,15 +19,15 @@
 
         <h4>Requirements</h4>
         <ul> <!-- Unordered List -->
-            <li>Belt Exam</li>
-            <li>90% assignment</li>
-            <li>Attendance</li>
+            <li class="req belt">Belt Exam</li>
+            <li class="req belt">90% assignment</li>
+            <li class="req">Attendance</li>
         </ul>
         <h4>Principles</h4>
         <ol> <!-- Ordered List -->
             <li>Be present</li>
             <li>Be humble</li>
-            <li>Strength through struggle!</li>
+            <li id="sts">Strength through struggle!</li>
         </ol>
 
         <a href="http://login.codingdojo.com" target="_blank">Link to platform</a>
@@ -34,7 +35,7 @@
         <hr> <!-- Horizontal Line -->
         <img src="./images/me.jpg" alt="a picture of me!">
 
-        <table border="">
+        <table>
             <tr>
                 <th>Assignment</th>
                 <th>Priority</th>
@@ -74,33 +75,36 @@
 
         <form action="/" method="get">
             <div>
-                First Name: <input type="text" name="first_name" id="">
+                First Name: <input type="text" name="first_name" >
             </div>
             <div>
-                Comments: <textarea name="comments" id="" cols="10" rows="5"></textarea>
+                Comments: <textarea name="comments" cols="10" rows="5"></textarea>
             </div>
             <div>
-                Password: <input type="password" name="password" id="">
+                Password: <input type="password" name="password">
             </div>
             <div>
-                Date: <input type="date" name="date" id="">
+                Date: <input type="date" name="date">
             </div>
             <div>
-                Date: <input type="datetime-local" name="date" id="">
+                Date: <input type="datetime-local" name="date">
             </div>
             <div>
-                Color: <input type="color" name="color" id="">
+                Color: <input type="color" name="color">
             </div>
 
         </form>
 
         <div id="videos">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/0hRPjiNTYJE" title="july_wf_001"
-                frameborder="0"
+            <iframe src="https://www.youtube.com/embed/0hRPjiNTYJE" title="july_wf_001"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen>
             </iframe>
         </div>
+    </div>
+
+    <div id="day-2" class="day-style">
+        <a href="./about.html">About Nyasha</a>
     </div>
 </body>
 
