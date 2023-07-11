@@ -26,8 +26,52 @@ This is how you comment out in HTML
 
 You can select all occurances with CTRL + SHIFT + L or CTRL + D for each next one.
 
-Tags
+Descendant Selector
+
+Sometimes we know the element we want to select is inside of another element. If the "parent" element is one we can easily select (maybe it has a class on it), then we can use this to our advantage to access the child element easily.
+
+Direct Descendant Selector
+Similar to the Descendant Selector, we can select a child element with the Direct Descendant Selector `>`, but unlike the Descendant Selector it won't select grandchildren. 
+
+for example 
+
+.header > img {
+    height: 50px;
+}
+
+Selectors
+
+selector | strength
+-------------------
+div      | +1
+#game    | +100
+p        | +1
+.score   | +10
+-------------------
+combined | 112
+
+Attribute Selector
+Sometimes we have a situation where we want to style two similar elements that rely on an attribute for how they behave. For instance if we are making a form we likely use `<input type="text">` for the user to input data into and `<input type="submit">` which acts as the button the user clicks to submit the form. CSS we would want to use on one we might not want to use on the other. While we *could* use a class to differentiate between the two we could also use a selector that looks at the attribute.
+
+input {
+    padding: 5px;
+    border-color: rebeccapurple;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+}
+input[type="submit"] {
+    color: white;
+    background-color: rebeccapurple;
+}
+
+Tags for CSS - Using a '*' selects everything on the file
 
 background-color
+
 color
+
 text-align
+
+font-style
