@@ -39,30 +39,35 @@
     background-color: gray;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    align-items: center;
 }
 .blue2 {
-    display: inline-block;
+    
     background-color: blue;
     height: 300px;
     width: 166px;
     margin: 0px;
     padding: 0px;
+    display: inline-block;
 }
 .white {
-    display: inline-block;
+    
     background-color: white;
     height: 300px;
     width: 166px;
     margin: 0px;
     padding: 0px;
+    display: inline-block;
 }
 .red2 {
-    display: inline-block;
+    
     background-color: red;
     height: 300px;
     width: 166px;
     margin: 0px;
     padding: 0px;
+    display: inline-block;
 }
 .backjapan {
     display: inline-block;

@@ -68,7 +68,11 @@ input[type="submit"] {
 
 Tags for CSS - Using a '*' selects everything on the file
 
-background-color
+background-color: blue;
+background-image: url("cherries.png");
+background-position: center;
+background-size: auto;
+background-repeat: no-repeat;
 
 color
 
@@ -82,7 +86,16 @@ text-decoration
 
 font-family
 
+border
+border-radius
+
+overflow: scroll - for content that is too big for a container can allow a scrolling feature
+
 ### day three notes - Flexbox
+
+vertical-align
+
+display : inline, block, inline-block
 
 
 
