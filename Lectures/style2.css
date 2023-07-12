@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 1px solid red;
+}
+
+img {
+    height: 70px;
+    margin: 10px 10px 10px 10px;
+    border: 2px black solid;
+    padding: 1px;
+    
+}
+
+.button {
+    border-radius: 50px;
+    margin: 5px 15px 5px 15px;
+    width: 120px;
+}
+
+form div {
+    padding: 10px;
+}
+
+table, th, tr, td {
+    padding: 5px;
+    margin: 5px;
+}
+
+.inline-demo {
+    border: 1px red solid;
+}
+
+.first {
+    display: inline-block;
+}
+
+.second {
+    display: inline-block;
+}

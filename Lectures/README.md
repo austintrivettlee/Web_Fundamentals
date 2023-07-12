@@ -75,3 +75,16 @@ color
 text-align
 
 font-style
+
+font-weight
+
+text-decoration
+
+font-family
+
+### day three notes - Flexbox
+
+
+
+
+

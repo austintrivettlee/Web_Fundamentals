@@ -1,0 +1,44 @@
+.my {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 35px;
+    margin: 10px 0px 0px 5px;
+}
+.cloud {
+    display: inline-block;
+    color: aqua;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 35px;
+    margin: 0px 0px 0px 0px;
+}
+.title {
+    background-color: black;
+    height: 60px;
+    padding: auto;
+    font-family: monospace;
+    margin: 0px 0px 10px 0px;
+}
+.projects {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    height: 50px;
+    font-family: monospace;
+    margin: 0px 0px 10px 0px;
+    font-size: 35px;
+}
+.contact {
+    text-align: right;
+    text-decoration: underline;
+    color: black;
+    background-color: cadetblue;
+    height: 35px;
+}
+.contact p {
+    font-family: monospace;
+    font-size: 25px;
+    margin: 10px 0px 10px 0px;
+}

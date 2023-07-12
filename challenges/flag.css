@@ -1,0 +1,138 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: grey;
+}
+
+.red {
+    background-color: red;
+    width: 500px;
+    height: 50px;
+}
+.orange {
+    background-color: orange;
+    width: 500px;
+    height: 50px;
+}
+.yellow {
+    background-color: yellow;
+    width: 500px;
+    height: 50px;
+}
+.green {
+    background-color: green;
+    width: 500px;
+    height: 50px;
+}
+.blue {
+    background-color: blue;
+    width: 500px;
+    height: 50px;
+}
+.purple {
+    background-color: purple;
+    width: 500px;
+    height: 50px;
+}
+
+.france {
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+}
+.blue2 {
+    display: inline-block;
+    background-color: blue;
+    height: 300px;
+    width: 166px;
+    margin: 0px;
+    padding: 0px;
+}
+.white {
+    display: inline-block;
+    background-color: white;
+    height: 300px;
+    width: 166px;
+    margin: 0px;
+    padding: 0px;
+}
+.red2 {
+    display: inline-block;
+    background-color: red;
+    height: 300px;
+    width: 166px;
+    margin: 0px;
+    padding: 0px;
+}
+.backjapan {
+    display: inline-block;
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+.dotjapan {
+    display: inline-block;
+    background-color: #be002b;
+    height: 200px;
+    width: 200px;
+    margin: 50px 140px;
+    padding: 0px;
+    border-radius: 50%;
+}
+.swedenback {
+    display: inline-block;
+    background-color: #0269a9;
+    height: 300px;
+    width: 500px;
+    padding: 0px;
+}
+.swetopdown {
+    display: inline-block;
+    background-color: #ffcd02;
+    height: 300px;
+    width: 75px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 150px;
+}
+.sweleftright {
+    display: inline-block;
+    background-color: #ffcd02;
+    height: 75px;
+    width: 500px;
+    padding: 0px 0px 0px 0px;
+    margin: 110px 0px 0px -150px;
+}
+
+.chilebackred {
+    display: inline-block;
+    background-color: red;
+    height: 300px;
+    width: 500px;
+    margin: 0px 0px 0px 0px;
+}
+.bluesquare {
+    display: inline-block;
+    background-color: blue;
+    height: 155px;
+    width: 171px;
+    margin: 0px 0px 0px 0px;
+}
+.star {
+    display: inline-block;
+    margin: -35px 0px 5px 23px;
+}
+.whiterec {
+    display: inline-block;
+    background-color: white;
+    height: 170px;
+    width: 329px;
+    margin: -270px 0px 0px 171px;
+}
+
+span {
+    font-size: 150px;
+    color: white;
+    background-color: transparent;
+}
