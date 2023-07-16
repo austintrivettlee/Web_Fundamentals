@@ -1,8 +1,9 @@
 body {
-    background-color: bisque;
+    background-color: white;
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .nav {
@@ -49,18 +50,18 @@ body {
 }
 
 .main {
-    border: 1px red solid;
     width: 80%;
     display: flex;
     margin: 50px auto;
     columns: 2;
     gap: 50px;
 }
-
+.main div {
+    border-radius: 6px;
+}
 .main-left {
     flex: 2;
     width: 100%;
-    border: 2px gray solid;
 }
 
 .profile-header {
@@ -80,6 +81,7 @@ body {
 
 .main-left p img, a img {
     width: 15px;
+    margin-right: 5px;
 }
 .left-prof {
     margin: 80px 0px 0px 6%;
@@ -98,18 +100,20 @@ body {
     display: block;
     flex: 1;
 }
-.right-con-existing {
-    display: flex;
-    flex: 3;
-}
 .right-con-req {
     border: 2px gray solid;
     flex: 2;
     margin-bottom: 50px;
 }
-.req-body {
-    display: inline;
-    
+.req-first {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.req-second {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
 }
 .bannerreq {
     width: 100%;
@@ -120,18 +124,105 @@ body {
     justify-content: center;
     gap: 10px;
     flex-wrap: nowrap;
+    color: white;
 }
 .bannerreq button {
     background-color: #CCCCCC;
     border: none;
     border-radius: 100%;
 }
-.req-body img {
-    flex-direction: column;
+.req-main img {
     width: 50px;
     border-radius: 100%;
+    height: 50px;
 }
-.req-body p {
+.req-main button {
+    width: 30px;
+    height: 30px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 100%;
+    justify-content: space-around;
+    background-color: gray;
+    color: white;
+    border: none;
+}
+.req-main {
+    display: flex;
+    flex-direction: column;
+}
+.right-con {
+    border: 2px gray solid;
+    flex: 2;
+    margin-bottom: 50px;
+}
+.con {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+.con img {
+    margin-left: 20px;
+}
+
+.button-req {
+    padding: auto;
+}
+.bannercon {
+    width: 100%;
+    height: 60px;
+    background-color: #333333;
+    display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+    color: white;
+}
+.bannercon button {
+    background-color: #CCCCCC;
+    border: none;
+    border-radius: 100%;
+}
+.con-main img {
+    width: 50px;
+    border-radius: 100%;
+    height: 50px;
+}
+.con-main button {
+    width: 30px;
+    height: 30px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 100%;
+    justify-content: space-around;
+    background-color: gray;
+    color: white;
+}
+.con-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-edu {
+    border: 2px gray solid;
+}
+.prof {
+    border: 2px gray solid;
+    margin-bottom: 50px;
+}
+.edu-header {
+    width: 100%;
+    height: 60px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+    color: white;
+}
+.edu-body {
+    margin-left: 20px;
+}
+.date {
+    color: gray;
 }
