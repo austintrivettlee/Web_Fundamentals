@@ -97,7 +97,16 @@ vertical-align
 
 display : inline, block, inline-block
 
+#### Day Six Javascript
 
+onclick is an event that will activate on click of whatever it is attached.
 
+this depends on the context on who the parent is like if it is attached to a button.
 
+objects are not 0 indexed
 
+class should be for CSS
+
+ID is used for JavaScript
+
+DOM - Document Object Model
