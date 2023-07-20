@@ -77,3 +77,5 @@ for(var i=0; i<pokemon.length; i++) {
     }
     
 }
+
+// ! great job!! 🎈🎈🎈🎈🎈
